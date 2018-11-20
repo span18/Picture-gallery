@@ -1,1 +1,42 @@
-main.css
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: auto;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+nav {
+	letter-spacing: 0.5px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 200px;
+	height: 1000px;
+	background-color: #494747;
+	color: #e3674c;
+	text-transform: uppercase;
+	display: none;
+}
+
+@media screen and (max-width: 800px) {
+	nav {
+		display: block;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100px;
+		background-color: #494747
+	}
+}
+
+h3 {
+	margin-left: 38px;
+}
+
+h3:hover {
+	color: #000;
+	cursor: pointer;
+}
