@@ -53,9 +53,10 @@ h3:hover {
 	cursor: pointer;
 	color: #000;
 	font-size: 25px;
-}
-
-@media screen and (max-width: 600px) {
+}											/* END */
+											
+											/* THIS CODE DISPLAYS THE HAMBURGER ICON ON SCREEN ADJUSTMENT */
+@media screen and (max-width: 615px) {
 	nav {
 		display: none;
 }
@@ -69,7 +70,7 @@ h3:hover {
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 615px) {
 .main-nav.active {
 	display: block;
 	justify-content: center;
@@ -78,3 +79,44 @@ h3:hover {
 /*.navbar-toggle {
 	display: none;
 }*/
+											/* IMAGE LAYOUT & RESPONSIVNESS */
+.row {
+	margin-left: 200px;
+	display: flex;
+	display: -ms-flexbox; /* IE10 */
+    -ms-flex-wrap: wrap; /* IE10 */
+	flex-wrap: wrap;
+	padding: 0 4px;
+}
+
+@media screen and (max-width: 800px) {
+	.row {
+		margin-left: 4px;
+		margin-top: 25px;
+	}
+}
+
+.column {
+	flex: 25%;
+	max-width: 25%;
+	padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 800px) {
+	.column {
+		flex: 50%;
+		max-width: 50%;
+	}
+}
+
+@media screen and (max-width: 615px) {
+	.column {
+		flex: 100%;
+		max-width: 100%;
+	}
+}												/* END */
