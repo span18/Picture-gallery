@@ -46,3 +46,35 @@ h3:hover {
 	color: #000;
 	cursor: pointer;
 }
+
+.navbar-toggle {							/* HAMBURGER ICON */
+	width: 100%;
+	margin: auto;
+	cursor: pointer;
+	color: #000;
+	font-size: 25px;
+}
+
+@media screen and (max-width: 600px) {
+	nav {
+		display: none;
+}
+}
+
+.active {
+	display: block;
+	font-size: 20px;
+	background-color: #fff;
+	color: #e3674c;
+}
+
+
+@media screen and (max-width: 600px) {
+.main-nav.active {
+	display: block;
+	justify-content: center;
+}
+}
+/*.navbar-toggle {
+	display: none;
+}*/
