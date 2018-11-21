@@ -79,6 +79,7 @@ h3:hover {
 
 @media screen and (max-width: 720px) {
 .main-nav {
+	position: relative;
 	justify-content: center;
 	margin-top: 50px;
 	height: 280px;
