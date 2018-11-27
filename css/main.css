@@ -156,3 +156,7 @@ h3:hover {
 }
 
 										/* END */
+
+.show {
+    display: block;
+}
