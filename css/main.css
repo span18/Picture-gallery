@@ -3,9 +3,9 @@
 }
 
 body {
-	background-color: red;
 	margin: auto;
 	font-family: 'Open Sans Condensed', sans-serif;
+/*	background-color: rgba(72, 71, 71);*/
 }
 
 @media screen and (max-width: 615px) {
