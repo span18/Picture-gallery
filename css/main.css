@@ -8,10 +8,6 @@ body {
 /*	background-color: rgba(72, 71, 71);*/
 }
 
-.show {
-    display: block;
-}
-
 @media screen and (max-width: 615px) {
 	header {
 		text-align: center;
@@ -129,26 +125,25 @@ h3:hover {
 
 .column {
 	flex: 25%;
-	max-width: 25%;
+	/*max-width: 25%;*/
 	padding: 0 4px;
+	display: none;
 }
 
 .column img {
   margin-top: 8px;
-  vertical-align: middle;
+/*  vertical-align: middle;*/
 }
 
 @media screen and (max-width: 800px) {
 	.column {
 		flex: 50%;
-		max-width: 50%;
 	}
 }
 
 @media screen and (max-width: 615px) {
 	.column {
 		flex: 100%;
-		max-width: 100%;
 	}
 }			
 
@@ -161,3 +156,16 @@ h3:hover {
 
 										/* END */
 
+.show {
+    display: block;
+}
+
+.column-harrie {
+/*			margin-left: 200px;*/
+	display: flex;
+	display: -ms-flexbox; /* IE10 */
+    -ms-flex-wrap: wrap; /* IE10 */
+	flex-wrap: wrap;
+	padding: 0 4px;
+}
+}
