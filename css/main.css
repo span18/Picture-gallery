@@ -161,6 +161,10 @@ h3:hover {
     display: block;
 }
 
+img {
+	border-radius: 5%;
+}
+
 img:hover {
 	animation: shake 0.2s;
 	cursor: zoom-in;
