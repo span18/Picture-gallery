@@ -132,6 +132,8 @@ h3:hover {
 
 .column img {
   margin-top: 8px;
+  display: flex;
+
 /*  vertical-align: middle;*/
 }
 
@@ -155,17 +157,16 @@ h3:hover {
 }
 
 										/* END */
-
 .show {
     display: block;
 }
 
-.column-harrie {
-/*			margin-left: 200px;*/
-	display: flex;
-	display: -ms-flexbox; /* IE10 */
-    -ms-flex-wrap: wrap; /* IE10 */
-	flex-wrap: wrap;
-	padding: 0 4px;
+img:hover {
+	animation: shake 0.2s;
+	cursor: zoom-in;
 }
-}
+
+@keyframes shake {
+
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  }
