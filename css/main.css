@@ -8,6 +8,10 @@ body {
 /*	background-color: rgba(72, 71, 71);*/
 }
 
+.show {
+    display: block;
+}
+
 @media screen and (max-width: 615px) {
 	header {
 		text-align: center;
@@ -157,6 +161,3 @@ h3:hover {
 
 										/* END */
 
-.show {
-    display: block;
-}
