@@ -30,6 +30,7 @@ nav {
 @media screen and (max-width: 900px) {
 	nav {
 		margin: auto;
+		border-bottom: 7px solid #fff;
 		display: flex;
 		justify-content: center;
 		position: fixed;
@@ -42,7 +43,7 @@ nav {
 
 	nav h3 {
 		margin-left: 0;
-		padding: 0px 22px 0px 22px;
+		padding: 0px 22px 12px 22px;
 	}
 }
 
